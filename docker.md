@@ -1,7 +1,10 @@
+```
+//首先将项目clone到本地
+
 cd docker-training
 
 cd centos7/
-
+```
 ### FROM 指令
 
 父镜像
@@ -77,3 +80,5 @@ docker run -d -p 80:80 --name wordpress -e WORDPRESS_DB_HOST=10.12.233.32 -e WOR
 docker images
 
 docker rmi container-name
+
+[其他笔记](20150604_other.md)
